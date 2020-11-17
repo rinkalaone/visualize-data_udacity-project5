@@ -12,18 +12,18 @@
 
 #### <ins>Provided Files</ins>:
 
-<h6>
-
 The "Exploratory Analysis" Part of the Project is contained in the python jupyter notebook ```exploration_fordgobike.ipynb```,
 that can be viewed with "nbviewer" (Table of Content and anchor links are not rendered within GitHub) here:<br>
-https://nbviewer.jupyter.org/github/rinkalaone/visualize-data_udacity-project5/blob/master/wrangle_act.ipynb
+https://github.com/rinkalaone/visualize-data_udacity-project5/blob/master/exploration_fordgobike.ipynb
 
 The "Explanatory Analysis" has been built using the jupyter notebook ```fordgobike_slide_presentation.ipynb```.
 A Slides-Presentation was generated using the module "reveal.js" on the command line:<br>``` jupyter nbconvert fordgobike_slide_presentation.ipynb --to slides --post serve --template output_toggle```<br><br>
 The Presentation can be viewed and navigated through, by clicking or pressing the arrow keys, here:  
 https://rinkalaone.github.io/presentation-slides_udacity-project5/
 <br><i>(How to navigate: if sub-slides follow the current slide (the down arrow at the bottom right is black colored), click the down-arrow. Otherwise click the right-arrow or press the right-key)</i>
-</h6>
+
+----
+
 
 ## Detailed overview of the Dataset, Exploratory Analysis, Summary of Findings and Key Insights for our Explanatory Analysis:
 
