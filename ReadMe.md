@@ -39,7 +39,7 @@ The data can be found on the website of the "Bay Wheels" company, [here](https:/
 
 We focused our Analysis on the features of "duration" and "pick-up time" through different perspectives (by months of the year, days within a week and hours within a day), to inspect how they possibly correlate with one another on one hand and with other features of the dataset on the other hand. We gathered different findings through our different phases of Exploratory Analysis that we expose here:
 
-#### <u>Univariate Exploration</u>
+#### <ins>Univariate Exploration</ins>
 
 The "duration" variable takes a wide range of values (between 1 minute to more than 23 hours), with most values in the lower part of the distribution (99% of the rides last less than 1 hour and 40 minutes) and a frequency peak for duration values between 5 and 10 minutes. A logarithmic scale transformation on the x-axis, reveals a "log-normal" shape of the distribution.
 
@@ -51,7 +51,7 @@ Beyond our main features of interest, we inspected the categorical variables des
 - A large majority of users are "Subscribers" (88.5%), versus "Customers" (11.5%)
 - 10.5% of "Subscribers" make use of the "bike-share" Program
 
-#### <u>Bivariate Exploration:</u><br>
+#### <ins>Bivariate Exploration:</ins><br>
 
 The "duration" variable seems to be influenced by all the users' characteristics we have been looking at (gender, age, user-type):<br>
 - "user-type" shows the strongest correlation with  "duration":  
@@ -79,14 +79,14 @@ Finally, the duration vary with the "pick-up time" in the following way:
 - During the week, from Monday until Thursday, the duration of the trips tend to be minimum in average. It increases, slightly on Fridays and is maximum during the week-end
 - During the day, the duration time is maximum in average at 8am and between 11am and 6pm.
 
-#### <u>Multivariate Exploration:</u>
+#### <ins>Multivariate Exploration:</ins>
 
 We found out that the "user-type" variable, which we knew had an influence on both "duration" and "pick-up time" variables, is a feature that actually explains more precisely, how the median duration vary with times of pick-up:<br>Trips duration do not vary much by time of pick-up for the "Subscribers" group. It remains either constant by month of the year and for each day of the week (8 minutes) or shows few variation by pick-up hour, during the day (6 to 9 minutes).
 There is a bigger variation of the median "duration" within the group of "Customer" users: 1) during the week-end rentals last about 18 minutes, versus 13 minutes during working days and 2) during the day, they last 17 minutes from 11am to 3pm versus around 12 minutes. The biggest variation of the trips' duration observed, for the "Customers", occurs in the measurement by days of the week and hour of the day. The duration time shows less fluctuation, when looking at the median variation by month (between 13 and 15 minutes).
 
 We observed that 'gender' somewhat emphasized the effect of the user-type variable on the "duration" and "pick-up" time variables. Both the "duration" by "pick-up" times and the proportions of rentals by time show a tendency of a bigger contrast of values within the group of "Customer" users, for the "Female" group.
 
-#### <u>Analysing the Findings and overall Conclusion:</u>
+#### <ins>Analyzing the Findings and overall Conclusion:</ins>
 Focusing on the analysis of the "duration" and "pick-up time" variables of the dataset, helped us gain Insights on *how* and *what* the Rentals are used *for* and by *whom*.
 
 The main reason, by far, why people use the rentals service of the "Bay Wheels" Company, is for daily commuting purposes, all year long, mainly on working days and opening/closing office hours. The trips median duration remains quite constant, around 8 minutes. The users, most probably residents of the bay, are subscribers of the service.
@@ -115,7 +115,7 @@ Using Feedback from Family members, that are unfamiliar with statistics and boxp
 
 ## Resources
 
-We used following websites, apart from the Udacity courses content, for python programming references and for solving encountered issues with the used libnraries(pandas, numpy, seaborn and matplotlibb):  
+We used following websites, apart from the Udacity courses content, for python programming references and for solving encountered issues with the used libraries(pandas, numpy, seaborn and matplotlibb):  
 - pandas.pydata.org  
 - www.stackoverflow.com  
 - matplotlib.org  
