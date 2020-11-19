@@ -105,9 +105,9 @@ We want to answer the following questions:
 We saw that we must combine the different questions together to get a full answer to each of them. So answering the distinct 3 questions will eventually turn into answering "Who uses the rentals service, when and for how long?".
 
 We will start answering the 3 questions, distinctively. First plotting all users features distributions, frequencies by time of pick-up and trips duration.  
-We will then move on answering "Who uses rentals when", focusing on plotting frequencies for several user features by week and by day. And combining different user features.  
-We will next answer "Who uses rentals for how long", plotting an overview of the duration distribution for user characteristics with boxplots and then plotting the median duration for the same features.
-Finally we will answer "who uses rentals,  when and for how long", focusing on the median duration by times of pick-up, for the "user-type" feature.
+We will then move on answering "Who uses rentals when?", focusing on plotting frequencies for several user features by week and by day. And combining different user features.  
+We will next answer "Who uses rentals for how long?", plotting an overview of the duration distribution for user characteristics with boxplots and then plotting the median duration for the same features.
+Finally we will answer "who uses rentals,  when and for how long?", focusing on the median duration by times of pick-up, for the "user-type" feature.
 
 ## Feedback on Plot Design
 
